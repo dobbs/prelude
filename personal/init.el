@@ -11,5 +11,6 @@
 (global-set-key [(control x) (control l)] 'sort-lines)
 (global-set-key [(control r)] 'isearch-backward-regexp)
 (global-set-key [(control s)] 'isearch-forward-regexp)
+(global-set-key (kbd "C-c c") 'org-capture)
 (find-file "~/Documents/GTD.org")
 (server-start)
